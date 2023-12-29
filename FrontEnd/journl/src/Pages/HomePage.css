@@ -1,0 +1,22 @@
+.home-image {
+    border-radius: 15px;
+    width: 90%;
+    height: 90%;
+    max-height: 600px;
+}
+
+.home-text {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.dive-button {
+    font-size: x-large;
+}
+
+.burger-icon{
+    color:aliceblue;
+    filter: invert(1);
+    margin-right: 10px;
+}

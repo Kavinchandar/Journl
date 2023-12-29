@@ -1,0 +1,41 @@
+
+
+.background {
+  background: url('./Images/nightsky.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 150vh;
+}
+
+@media (max-width: 768px) {
+  .background{
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: top;
+    background-repeat: repeat;
+  }
+}
+
+
+.blur {
+    color: white;
+    background: linear-gradient(135deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255,255,255,255,0.18); 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
+    height: fit-content;
+    width: fit-content;
+}
+
+.navbar-row {
+  background-color: #f8f9fa; /* Optional background color for the navbar row */
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.content-row {
+  margin-top: 10px; /* Adjust the margin-top to create space between navbar and content */
+}
+
+.body {
+  padding-top: 50px;;
+}

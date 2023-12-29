@@ -1,0 +1,36 @@
+.Content {
+    font-size: large;
+    text-align: start;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.close-button {
+    filter: invert(1);
+}
+
+.Content-box{
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    border: 2px solid aquamarine;
+    
+  }
+
+.comment-box {
+    width: 75%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.comment {
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}

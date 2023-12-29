@@ -1,0 +1,19 @@
+.content {
+    padding: 20px;
+}
+
+.article-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.article-box:hover{
+    border-radius: 10px;
+    border: 3px solid aquamarine;
+}
+
+.content-box{
+    width: 90%;
+}

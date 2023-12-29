@@ -1,0 +1,24 @@
+.comment-postedBy {
+    width: 80%;
+    color: aquamarine;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+.comment-text{
+    color: aliceblue;
+    font-size: large;
+    margin-left: 10px;
+}
+
+.new-blur {
+    color: white;
+    background: linear-gradient(135deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255,255,255,255,0.18); 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
+    height: 70px;
+    width: 100%;
+    margin-bottom: 10px;
+}

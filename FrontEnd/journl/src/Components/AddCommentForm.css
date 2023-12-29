@@ -1,0 +1,18 @@
+
+.add-comment-form {
+    width: 100%;
+}
+
+.textarea {
+    width: 90%;
+    height: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .button-center{
+    margin: auto;
+  }
+
